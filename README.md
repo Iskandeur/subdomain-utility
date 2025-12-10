@@ -28,7 +28,7 @@ This tool is useful for penetration testers, security researchers, and network a
 ### Clone This Repository
 
 ```bash
-git clone https://github.com/yourusername/subdomain-utility.git
+git clone https://github.com/Iskandeur/subdomain-utility.git
 cd subdomain-utility
 ```
 
