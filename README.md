@@ -28,8 +28,8 @@ This tool is useful for penetration testers, security researchers, and network a
 ### Clone This Repository
 
 ```bash
-git clone https://github.com/yourusername/yourrepository.git
-cd yourrepository
+git clone https://github.com/yourusername/subdomain-utility.git
+cd subdomain-utility
 ```
 
 ### Install Sublist3r
@@ -63,7 +63,7 @@ ipwhois
 ## Usage
 
 ```bash
-python yourscript.py <domain> [--sublist3r-path SUBLIST3R_PATH] [--output OUTPUT]
+python subdomain-utility.py <domain> [--sublist3r-path SUBLIST3R_PATH] [--output OUTPUT]
 ```
 
 ### Positional Arguments
@@ -80,7 +80,7 @@ python yourscript.py <domain> [--sublist3r-path SUBLIST3R_PATH] [--output OUTPUT
 Enumerate subdomains for `example.com` and save results to `results.csv`:
 
 ```bash
-python yourscript.py example.com --output results.csv
+python subdomain-utility.py example.com --output results.csv
 ```
 
 ## Output
@@ -119,7 +119,3 @@ The script generates a CSV file containing the following columns:
 ## Contributing
 
 Contributions are welcome! Please open an issue or submit a pull request for any improvements or bug fixes.
-
-## Contact
-
-For any questions or suggestions, feel free to contact [Iskandeur](mailto:alexandre.pinoteau@ecole2600.com).
